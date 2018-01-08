@@ -1,6 +1,6 @@
 {
-    "ProjectName": "grpc-boilerplate",
-    "ProjectImportPath": "github.com/loderunner/grpc-boilerplate",
+    "PackageName": "grpc-boilerplate",
+    "ImportPath": "github.com/loderunner/grpc-boilerplate",
     "Author": "Charles Francoise",
     "Email": "charles.francoise@gmail.com"
 }
