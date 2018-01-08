@@ -39,7 +39,7 @@ clean: ## Clean compiled binaries
 	@rm -f ${BINARIES}
 
 realclean: ## Clean compiled binaries and all generated files
-	@rm -f {BINARIES}
+	@rm -f ${BINARIES}
 	@rm -f ${API_FILES}
 
 test: dep ## Run tests
