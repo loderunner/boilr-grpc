@@ -10,7 +10,7 @@ build: dep api ## Build {{PackageName}}
 	@go build .
 
 dep: ## Fetch dependencies
-	# @go get -u ./...
+	@go get ./...
 
 api: $(API_FILES) ## Auto-generate gRPC/REST Go sources
 
