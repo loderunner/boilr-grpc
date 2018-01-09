@@ -3,7 +3,7 @@ package api;
 
 import "google/api/annotations.proto";
 
-service Echo {
+service {{ServiceName}} {
     rpc Echo(EchoRequest) returns (EchoResponse) {
         option (google.api.http) = {
             post: "/echo",

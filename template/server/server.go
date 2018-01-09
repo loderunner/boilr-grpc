@@ -17,7 +17,7 @@ func ListenAndServeGRPC(address string) error {
 	opts := []grpc.ServerOption{}
 	grpcServer := grpc.NewServer(opts...)
 	s := Server{}
-	api.RegisterEchoServer(grpcServer, &s)
+	api.Register{{ServiceName}}Server(grpcServer, &s)
 
 	lis, err := net.Listen("tcp", address)
 	if err != nil {
@@ -40,7 +40,7 @@ func ListenAndServeREST(restAddress, grpcAddress string) error {
 
 	opts := []grpc.DialOption{grpc.WithInsecure()}
 
-	err := api.RegisterEchoHandlerFromEndpoint(
+	err := api.Register{{ServiceName}}HandlerFromEndpoint(
 		ctx,
 		mux,
 		grpcAddress,
