@@ -6,10 +6,10 @@ API_FILES = api/{{PackageName}}.pb.go api/{{PackageName}}.pb.gw.go api/{{Package
 
 .PHONY: build dep test race msan
 
-build: dep api ## Build {{PackageName}}
+build: api dep ## Build {{PackageName}}
 	@go build .
 
-dep: ## Fetch dependencies
+dep: api ## Fetch dependencies
 	@go get ./...
 
 api: $(API_FILES) ## Auto-generate gRPC/REST Go sources
