@@ -137,6 +137,16 @@ The following files are generated from the protobuf definition (`api/echo.proto`
 
 * `echo`: The server's main executable file
 
+## Contributing
+
+Have an issue? Want to request a feature? Feel free to report any problems you encounter or features you think are missing.
+
+Want to contribute some code? Just fork this repository and submit a pull request. Don't forget to add your name to the list of contributors below!
+
+## Contributors
+
+* (Charles Francoise)[https://github.com/loderunner]
+
 ## MIT License
 
 Copyright 2018 Charles Francoise
