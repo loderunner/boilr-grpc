@@ -137,7 +137,7 @@ The following files are generated from the protobuf definition (`api/echo.proto`
 
 ----
 
-An example of the generated repository can be found at [](https://github.com/loderunner/echo). It should be up-to-date.
+An example of the generated repository can be found at [loderunner/echo](https://github.com/loderunner/echo). It should be up-to-date.
 
 ## Contributing
 
