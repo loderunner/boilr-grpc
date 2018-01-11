@@ -135,6 +135,10 @@ The following files are generated from the protobuf definition (`api/echo.proto`
 
 * `echo`: The server's main executable file
 
+----
+
+An example of the generated repository can be found at [](https://github.com/loderunner/echo). It should be up-to-date.
+
 ## Contributing
 
 Have an issue? Want to request a feature? Feel free to report any problems you encounter or features you think are missing.
