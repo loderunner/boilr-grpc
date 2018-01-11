@@ -143,7 +143,7 @@ Want to contribute some code? Just fork this repository and submit a pull reques
 
 ## Contributors
 
-* (Charles Francoise)[https://github.com/loderunner]
+* [Charles Francoise](https://github.com/loderunner)
 
 ## MIT License
 
