@@ -1,7 +1,5 @@
 {
     "ImportPath": "github.com/loderunner/echo",
     "PackageName": "echo",
-    "ServiceName" : "Echo",
-    "Author": "Charles Francoise",
-    "Email": "charles.francoise@gmail.com"
+    "ServiceName": "Echo"
 }

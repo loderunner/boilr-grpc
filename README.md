@@ -42,8 +42,6 @@ Replace `project-name` by any name you want to give to your project. If you set 
 * `ImportPath`: The full Go import path of your project. Default: `"github.com/loderunner/echo"`
 * `PackageName`: The name of the package, usually the same as your project directory and the last component of the import path. Default: `"echo"`
 * `ServiceName` : This will be the name of the template gRPC service. This name is only used in the Protobuf file and in the generated code. Default: `"Echo"`
-* `Author`: The full name of the author of the code. Default: `"Charles Francoise"`
-* `Email`: A contact address for the author of the code. Default: `"charles.francoise@gmail.com"`
 
 > _Note:_ Because of Go's import system, the best practice would be to generate your project directly inside your Go path at the correct location, and give it corresponding directory name, import path and package name.
 >
