@@ -4,7 +4,7 @@ GO_PACKAGES := $(shell go list ./... | grep -v /vendor/)
 BINARIES = {{PackageName}}
 API_FILES = api/{{PackageName}}.pb.go api/{{PackageName}}.pb.gw.go api/{{PackageName}}.swagger.json
 
-.PHONY: build dep test race msan
+.PHONY: build api dep test race msan
 
 build: api dep ## Build {{PackageName}}
 	@go build .
