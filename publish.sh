@@ -1,3 +1,5 @@
+#!/bin/sh
+
 boilr template save . grpc -f           # Save local template to boilr repository
 cd "$GOPATH"/src/github.com/loderunner 
 rm -rf echo
