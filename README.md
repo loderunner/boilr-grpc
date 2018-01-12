@@ -78,7 +78,7 @@ curl -sv http://localhost:8081/echo -H "Content-Type: application/json" -d '{"me
 
 ```
 POST /echo HTTP/1.1
-Host: localhost:7576
+Host: localhost:8081
 User-Agent: curl/7.54.0
 Accept: */*
 Content-Type: application/json
