@@ -42,6 +42,8 @@ Replace `project-name` by any name you want to give to your project. If you set 
 * `ImportPath`: The full Go import path of your project. Default: `"github.com/loderunner/echo"`
 * `PackageName`: The name of the package, usually the same as your project directory and the last component of the import path. Default: `"echo"`
 * `ServiceName` : This will be the name of the template gRPC service. This name is only used in the Protobuf file and in the generated code. Default: `"Echo"`
+* `GrpcPort` : The port on which the server expose a gRPC endpoint. Default: `8080`
+* `RestPort` : The port on which the server expose a REST endpoint. Default: `8081`
 
 > _Note:_ Because of Go's import system, the best practice would be to generate your project directly inside your Go path at the correct location, and give it corresponding directory name, import path and package name.
 >
@@ -66,10 +68,10 @@ Run the server by typing:
 ./echo
 ```
 
-This should expose a HTTP/2 gRPC endpoint on port 7575, and a HTTP/1.1 REST endpoint on port 7576. The template RPC `echo` should be available. Test it with:
+This should expose a HTTP/2 gRPC endpoint on port 8080, and a HTTP/1.1 REST endpoint on port 8081. The template RPC `echo` should be available. Test it with:
 
 ```shell
-curl -sv http://localhost:7576/echo -H "Content-Type: application/json" -d '{"message": "Hello World"}'
+curl -sv http://localhost:8081/echo -H "Content-Type: application/json" -d '{"message": "Hello World"}'
 ```
 
 ##### HTTP Request

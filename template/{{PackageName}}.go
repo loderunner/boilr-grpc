@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	grpcAddress := ":7575"
-	restAddress := ":7576"
+	grpcAddress := ":{{GrpcPort}}"
+	restAddress := ":{{RestPort}}"
 	go server.ListenAndServeREST(restAddress, grpcAddress)
 	server.ListenAndServeGRPC(grpcAddress)
 }

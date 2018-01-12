@@ -1,5 +1,7 @@
 {
     "ImportPath": "github.com/loderunner/echo",
     "PackageName": "echo",
-    "ServiceName": "Echo"
+    "ServiceName": "Echo",
+    "GrpcPort": "8080",
+    "RestPort": "8081"
 }
