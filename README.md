@@ -119,7 +119,7 @@ This is the directory structure after generating a project named `echo` from the
 * `dep`: fetch Go dependencies
 * `test`: run the package tests
 * `race`: run the package tests with the [race detector](https://golang.org/doc/articles/race_detector.html)
-* `msan`: run the package tests with the [memory sanitizer](https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies) Supported only on linux/amd64, and only with Clang/LLVM as the host C compiler.
+* `msan`: run the package tests with the [memory sanitizer](https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies). Supported only on linux/amd64, and only with Clang/LLVM as the host C compiler.
 
 ### Generated files
 
