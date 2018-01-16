@@ -153,7 +153,7 @@ Want to contribute some code? Just fork this repository and submit a pull reques
 
 ## MIT License
 
-Copyright 2018 Charles Francoise
+Copyright © 2018 Charles Francoise
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
